@@ -15,6 +15,9 @@
 		A501C010207C50E50013B096 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A501C00F207C50E50013B096 /* main.m */; };
 		A501C01A207C50E50013B096 /* Study_runtime_001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A501C019207C50E50013B096 /* Study_runtime_001Tests.m */; };
 		A501C025207C50E50013B096 /* Study_runtime_001UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A501C024207C50E50013B096 /* Study_runtime_001UITests.m */; };
+		A501C034207C523E0013B096 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A501C033207C523E0013B096 /* Person.m */; };
+		A501C037207C57E40013B096 /* NSURL+url.m in Sources */ = {isa = PBXBuildFile; fileRef = A501C036207C57E40013B096 /* NSURL+url.m */; };
+		A501C03A207C5DC50013B096 /* PersonMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = A501C039207C5DC50013B096 /* PersonMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		A501C020207C50E50013B096 /* Study_runtime_001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Study_runtime_001UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A501C024207C50E50013B096 /* Study_runtime_001UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Study_runtime_001UITests.m; sourceTree = "<group>"; };
 		A501C026207C50E50013B096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A501C032207C523E0013B096 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A501C033207C523E0013B096 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A501C035207C57E40013B096 /* NSURL+url.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+url.h"; sourceTree = "<group>"; };
+		A501C036207C57E40013B096 /* NSURL+url.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+url.m"; sourceTree = "<group>"; };
+		A501C038207C5DC50013B096 /* PersonMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonMethod.h; sourceTree = "<group>"; };
+		A501C039207C5DC50013B096 /* PersonMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonMethod.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				A501C001207C50E10013B096 /* AppDelegate.m */,
 				A501C003207C50E10013B096 /* ViewController.h */,
 				A501C004207C50E10013B096 /* ViewController.m */,
+				A501C038207C5DC50013B096 /* PersonMethod.h */,
+				A501C039207C5DC50013B096 /* PersonMethod.m */,
+				A501C035207C57E40013B096 /* NSURL+url.h */,
+				A501C036207C57E40013B096 /* NSURL+url.m */,
+				A501C032207C523E0013B096 /* Person.h */,
+				A501C033207C523E0013B096 /* Person.m */,
 				A501C006207C50E10013B096 /* Main.storyboard */,
 				A501C009207C50E50013B096 /* Assets.xcassets */,
 				A501C00B207C50E50013B096 /* LaunchScreen.storyboard */,
@@ -263,7 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A501C005207C50E10013B096 /* ViewController.m in Sources */,
+				A501C03A207C5DC50013B096 /* PersonMethod.m in Sources */,
+				A501C037207C57E40013B096 /* NSURL+url.m in Sources */,
 				A501C010207C50E50013B096 /* main.m in Sources */,
+				A501C034207C523E0013B096 /* Person.m in Sources */,
 				A501C002207C50E10013B096 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = Study_runtime_001/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = Study_runtime_001/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
